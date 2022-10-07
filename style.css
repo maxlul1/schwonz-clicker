@@ -1,0 +1,227 @@
+
+    
+body{
+    background-color: 	#041723;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+   
+}
+
+
+
+
+button{
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    background-color:  #2e5a8d;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-color: rgba(0, 0, 0, 0);
+    display: flex;
+    border-radius: 30px;
+    transition: 01,1s ease-out,  ;
+    box-shadow: 2px 5px 0 #0a205e;
+    left: 48%;
+    transition: ease-out 0.2s;
+
+    
+}
+button:hover{
+    background-color: rgb(29, 62, 122);
+    cursor: pointer;
+    transition: ease-out 0,2s;
+    
+    
+}
+button:active{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0 #0a0a0a;
+
+}
+#lang{
+font-size: 25px;
+    position: absolute;
+    top: 37%;
+    left: 60.5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#lang:active{
+   
+    background-color: rgb(22, 110, 0);
+    
+}
+
+
+#res{
+    top: 90%;
+    left: 3%;
+}
+#res:active{
+    background-color: red;
+}
+
+
+#pic{
+font-size: 45px;
+left: 48%;
+}
+
+#points{
+    cursor: default;
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    background-color: #2e5a8d;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+#insta{
+    right: 2%;
+    left: 89%;
+    top: 90%;
+}
+#goal{
+    right: 5%;
+    left: 77%;
+    top: 5%;
+    font-size: 30px;
+}
+
+#dontSave{
+    position: absolute;
+    right: 0%;
+    top: 83%;
+    left: 87%;
+    font-size: 20px;
+}
+#Scw{
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    background-color: #2e5a8d;
+    padding: 5px 20px;
+    border-radius: 30px;
+        
+        
+    
+}
+#creator{
+    position: absolute;
+    cursor: default;
+    background-color: #209b20;
+    padding: 4px 15px;
+    border-radius: 30px;
+    top: 1%;
+}
+
+#lol{
+    position: absolute;
+    left: 10%;
+    font-size: 300px;
+    top: 30%;
+    box-shadow: 15px 20px 0 #0a205e;
+    transform: translateY(5px);
+}
+
+#lol:active{
+    box-shadow: 0px 0px 0 #0a205e;
+    transform: translateY(50px);
+    transform: translateX(15px);
+    transition: ease-out 0.09s;
+}
+
+#up{
+    cursor: default;
+    font-size: 30px;
+    position: absolute;
+    right: 31%;
+    top: 18%;
+    background-color: #2e8d5d;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+#pas{
+    cursor: default;
+    position: absolute;
+    top: 32%;
+    right: 27%;
+    font-size: 26px;
+    background-color: #5a2e8d;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+#ef{
+    position: absolute;
+    top: 46%;
+    left: 56%;
+    font-size: 26px;
+    background-color: #5a2e8d;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: default;
+}
+#efprice{
+    font-size: 25px;
+    position: absolute;
+    top: 52%;
+    background-color:  #2e5a8d;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 0 #0a205e;
+    left: 61%;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+    
+}
+#efprice:active{
+    box-shadow: 0px 0px 0 #0a205e;
+    transform: translateY(5px);
+    background-color: rgb(22, 110, 0);
+}
+#efprice:hover{
+    background-color: rgb(29, 62, 122);
+}
+
+.rect{
+    position: absolute;
+    height: 600px;
+    width: 360px;
+    background-color: #30bb5e4f;
+    top: 17%;
+    right: 25%;
+    border-radius: 30px;
+}
+
+.rectclick{
+    position: absolute;
+    height: 120px;
+    width: 1480px;
+    background-color: #309fbb4f;
+    top: 4%;
+    right: 3%;
+    border-radius: 30px;
+}
+
+#insgesamt{
+    font-size: 30px;
+    position: absolute;
+    top: 89%;
+    left: 42%;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color:  #2e5a8d;
+    right: 42%;
+    
+}
+#insgesamt:hover{
+    cursor: default;
+}
